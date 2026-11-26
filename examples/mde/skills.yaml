@@ -1,0 +1,102 @@
+skills:
+- slug: rentals
+  title: Find Apartments
+  summary: Find apartments matching your budget and preferences.
+  instructions: Search connected MDE rental inventory by budget, neighborhood, bedrooms and furnishing.
+    Show grounded properties, prices, photos and locations; offer comparison or viewing. Public web results
+    are external leads, not verified MDE inventory. Use actual connected tools. Cite public sources, distinguish
+    external results from MDE inventory, and do not send private customer data to search providers. Never
+    invent facts or successful actions. If the required tool is missing, say so.
+  tools:
+  - exa/web_search_exa
+  - firecrawl/firecrawl_scrape
+- slug: compare
+  title: Compare Properties
+  summary: Compare apartments side by side.
+  instructions: Compare selected properties in a table with price, location, size, bedrooms, amenities
+    and known availability. Explain trade-offs and recommend the best match. Use actual connected tools.
+    Cite public sources, distinguish external results from MDE inventory, and do not send private customer
+    data to search providers. Never invent facts or successful actions. If the required tool is missing,
+    say so.
+  tools:
+  - firecrawl/firecrawl_scrape
+- slug: viewing
+  title: Schedule a Viewing
+  summary: Arrange an apartment viewing.
+  instructions: Collect the selected property, requested date/time and necessary contact details. Use
+    the existing authorized MDE viewing and lead workflow. Confirm only after persistence and avoid duplicate
+    requests. Use actual connected tools. Cite public sources, distinguish external results from MDE inventory,
+    and do not send private customer data to search providers. Never invent facts or successful actions.
+    If the required tool is missing, say so.
+  tools: []
+- slug: events
+  title: Discover Events
+  summary: Find upcoming events and tickets.
+  instructions: Search MDE events by date, location, category and budget. Show grounded dates, venues,
+    prices and ticket availability. Offer existing purchase options. Use actual connected tools. Cite
+    public sources, distinguish external results from MDE inventory, and do not send private customer
+    data to search providers. Never invent facts or successful actions. If the required tool is missing,
+    say so.
+  tools:
+  - exa/web_search_exa
+  - firecrawl/firecrawl_scrape
+- slug: restaurants
+  title: Find Restaurants
+  summary: Discover restaurants matching your tastes.
+  instructions: Recommend restaurants by cuisine, neighborhood, budget, atmosphere and dietary preferences.
+    Use grounded places data. Offer supported reservation actions. Use actual connected tools. Cite public
+    sources, distinguish external results from MDE inventory, and do not send private customer data to
+    search providers. Never invent facts or successful actions. If the required tool is missing, say so.
+  tools:
+  - exa/web_search_exa
+  - firecrawl/firecrawl_scrape
+- slug: explore
+  title: Explore Medellín
+  summary: Discover attractions, neighborhoods and experiences.
+  instructions: Recommend attractions, cafés, neighborhoods and local experiences. Use reliable locations
+    and current practical information; explain why each fits. Use actual connected tools. Cite public
+    sources, distinguish external results from MDE inventory, and do not send private customer data to
+    search providers. Never invent facts or successful actions. If the required tool is missing, say so.
+  tools:
+  - exa/web_search_exa
+  - firecrawl/firecrawl_scrape
+- slug: trip
+  title: Plan a Trip
+  summary: Create personalized Medellín itineraries.
+  instructions: Create daily itineraries based on dates, interests, budget and start location. Group nearby
+    activities, check opening hours, and use grounded routes. Use actual connected tools. Cite public
+    sources, distinguish external results from MDE inventory, and do not send private customer data to
+    search providers. Never invent facts or successful actions. If the required tool is missing, say so.
+  tools:
+  - exa/web_search_exa
+  - firecrawl/firecrawl_scrape
+- slug: investment
+  title: Property Investment
+  summary: Discover new property developments.
+  instructions: Search existing MDE development projects by budget, location and goals. Compare known
+    prices and unit details, explain risks without promising returns, and offer supported consultations.
+    Use actual connected tools. Cite public sources, distinguish external results from MDE inventory,
+    and do not send private customer data to search providers. Never invent facts or successful actions.
+    If the required tool is missing, say so.
+  tools:
+  - exa/web_search_exa
+  - firecrawl/firecrawl_scrape
+- slug: venues
+  title: Find Venues
+  summary: Find venues for private events.
+  instructions: Find venues by event date, type, capacity, location and budget. Compare known packages
+    and facilities. Use existing enquiry workflows. Use actual connected tools. Cite public sources, distinguish
+    external results from MDE inventory, and do not send private customer data to search providers. Never
+    invent facts or successful actions. If the required tool is missing, say so.
+  tools:
+  - exa/web_search_exa
+  - firecrawl/firecrawl_scrape
+- slug: bookings
+  title: My Bookings
+  summary: Manage reservations, tickets and appointments.
+  instructions: Retrieve only the signed-in user's bookings and tickets. Explain status and available
+    actions; use existing authorized workflows for changes. Never disclose other users' records. Use actual
+    connected tools. Cite public sources, distinguish external results from MDE inventory, and do not
+    send private customer data to search providers. Never invent facts or successful actions. If the required
+    tool is missing, say so.
+  tools: []
